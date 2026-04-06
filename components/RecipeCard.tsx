@@ -56,7 +56,7 @@ export default function RecipeCard({ recipe, featuredProductNames = {} }: Recipe
           }}
         >
           <span
-            style={{ color: "rgba(255,255,255,0.85)" }}
+            style={{ color: "rgba(26,26,26,0.75)" }}
             className="text-4xl select-none"
             aria-hidden="true"
           >
