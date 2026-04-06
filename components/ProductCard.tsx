@@ -50,7 +50,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div
         style={{
           background: product.image ? undefined : catColor.placeholder,
-          height: "200px",
+          height: "130px",
           position: "relative",
           overflow: "hidden",
         }}
