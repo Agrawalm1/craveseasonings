@@ -17,7 +17,7 @@ const TRUST_ITEMS = [
   { label: "Amazon Fulfilled", icon: "✓" },
 ];
 
-const FEATURED_IDS = ["pretzel-salt-1-5lb", "clear-jel-1-75lb", "pink-curing-salt-2-5lb"];
+const FEATURED_IDS = ["pretzel-salt-1-5lb", "tvp-2-2lb", "pink-curing-salt-2lb"];
 
 const categoryColors: Record<string, { bg: string; text: string }> = {
   "salts-cures": { bg: "rgba(239,77,72,0.12)", text: "#C03030" },
