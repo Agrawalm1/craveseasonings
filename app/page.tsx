@@ -19,6 +19,33 @@ const TRUST_ITEMS = [
 
 const FEATURED_IDS = ["pretzel-salt-1-5lb", "tvp-2-2lb", "pink-curing-salt-2lb"];
 
+const TESTIMONIALS = [
+  {
+    name: "Sarah M.",
+    rating: 5,
+    product: "Coarse Pretzel Salt",
+    text: "My pretzels finally taste like the ones from a real pretzel shop. The salt stays white through baking and has the perfect crunch. Worth every penny.",
+  },
+  {
+    name: "James R.",
+    rating: 5,
+    product: "Pink Curing Salt #1",
+    text: "Cured my first batch of bacon with this and the results were incredible. Clear instructions on the label, fast shipping. Will be ordering again.",
+  },
+  {
+    name: "Linda K.",
+    rating: 5,
+    product: "Clear Jel Powder",
+    text: "I've been canning for 20 years and Clear Jel is the only thickener I trust for pie fillings. This bulk bag is a great value and it arrived fresh.",
+  },
+  {
+    name: "Marcus T.",
+    rating: 5,
+    product: "Textured Vegetable Protein",
+    text: "Game changer for meal prep. I use it in tacos, chili, and pasta sauce. High protein, absorbs seasoning perfectly. My whole family loves it.",
+  },
+];
+
 const categoryColors: Record<string, { bg: string; text: string }> = {
   "salts-cures": { bg: "rgba(239,77,72,0.12)", text: "#C03030" },
   thickeners: { bg: "rgba(217,119,6,0.12)", text: "#B45309" },
@@ -405,6 +432,46 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="text-center mb-10">
+          <p style={{ color: "#C03030" }} className="text-xs font-bold tracking-widest uppercase mb-1.5">
+            Customer Reviews
+          </p>
+          <h2 style={{ color: "#1A1A1A" }} className="text-2xl sm:text-3xl font-black">
+            What Our Customers Say
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {TESTIMONIALS.map((t) => (
+            <div
+              key={t.name}
+              style={{
+                background: "rgba(255,255,255,0.75)",
+                backdropFilter: "blur(20px)",
+                WebkitBackdropFilter: "blur(20px)",
+                border: "1px solid rgba(255,255,255,0.8)",
+                boxShadow: "0 4px 30px rgba(0,0,0,0.06)",
+              }}
+              className="rounded-3xl p-6 flex flex-col"
+            >
+              <div className="flex gap-0.5 mb-3">
+                {Array.from({ length: t.rating }).map((_, i) => (
+                  <span key={i} style={{ color: "#C03030" }} className="text-sm">★</span>
+                ))}
+              </div>
+              <p style={{ color: "#1A1A1A", opacity: 0.75 }} className="text-sm leading-relaxed flex-1 mb-4">
+                &ldquo;{t.text}&rdquo;
+              </p>
+              <div>
+                <p style={{ color: "#1A1A1A" }} className="text-xs font-bold">{t.name}</p>
+                <p style={{ color: "#C03030" }} className="text-[11px] font-medium">{t.product}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

@@ -6,8 +6,14 @@
     "category": "salts-cures",
     "categoryLabel": "Salts & Cures",
     "tagline": "Premium topping for soft pretzels, bagels & artisan breads",
-    "description": "All-natural, food-grade coarse salt. Heat resistant up to 400°F — stays white and crisp after baking. No additives, made in USA.",
+    "description": "All-natural, food-grade coarse salt. Heat resistant up to 400°F — stays white and crisp after baking. No additives.",
     "features": ["Heat resistant", "No additives", "Food grade", "All natural"],
+    "usageTips": [
+      "Apply immediately after the baking soda bath — before the surface dries",
+      "Press gently so crystals adhere; be generous for bakery-style results",
+      "Also excellent on bagels, focaccia, and artisan breads",
+      "Stays white and crisp up to 400°F — safe for high-heat baking"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Coarse-Pretzel-Salt-Ounce/dp/B097F811RC",
     "bestseller": false,
     "badge": null,
@@ -22,6 +28,12 @@
     "tagline": "Large bag — best value for home bakers",
     "description": "The same premium coarse pretzel salt in a large resealable bag. Perfect for high-volume baking or stocking your pantry.",
     "features": ["Heat resistant", "Resealable bag", "Food grade", "All natural"],
+    "usageTips": [
+      "Apply immediately after the baking soda bath — before the surface dries",
+      "Press gently so crystals adhere; be generous for bakery-style results",
+      "Also excellent on bagels, focaccia, and artisan breads",
+      "Stays white and crisp up to 400°F — safe for high-heat baking"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Coarse-Pretzel-Pound-Large/dp/B097F442Q2",
     "bestseller": true,
     "badge": "Bestseller",
@@ -36,6 +48,12 @@
     "tagline": "Jumbo bag for bakeries & serious home bakers",
     "description": "Our biggest bag — ideal for commercial kitchens, catering, and bulk buying. Same premium formula, unbeatable value per ounce.",
     "features": ["Commercial quantity", "Heat resistant", "Food grade", "Best value/oz"],
+    "usageTips": [
+      "Apply immediately after the baking soda bath — before the surface dries",
+      "Press gently so crystals adhere; be generous for bakery-style results",
+      "Also excellent on bagels, focaccia, and artisan breads",
+      "Stays white and crisp up to 400°F — safe for high-heat baking"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Coarse-Pretzel-Pound-Jumbo/dp/B097F5NZ4B",
     "bestseller": false,
     "badge": "Best Value",
@@ -50,6 +68,12 @@
     "tagline": "Cook-type starch for canning & pie filling",
     "description": "Non-GMO cook-type Clear Jel powder. Creates thick, stable gels that hold up through heat processing — the gold standard for canning.",
     "features": ["Non-GMO", "Cook type", "Canning safe", "Unflavored"],
+    "usageTips": [
+      "Mix with sugar before adding to fruit to prevent lumping",
+      "Use 7 tablespoons per quart of filling for most fruits",
+      "Bring to a full rolling boil and cook 1 minute before filling jars",
+      "Cook type only — do not use in no-bake or cold recipes"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Clear-Jel-Powder-Ounce/dp/B0C17R4JY4",
     "bestseller": false,
     "badge": null,
@@ -64,6 +88,12 @@
     "tagline": "Bulk bag — serious canners & bakers",
     "description": "Our large-format Clear Jel bag. Non-GMO, cook-type powder at the best price per ounce for frequent canners and bakers.",
     "features": ["Non-GMO", "Cook type", "Canning safe", "Bulk size"],
+    "usageTips": [
+      "Mix with sugar before adding to fruit to prevent lumping",
+      "Use 7 tablespoons per quart of filling for most fruits",
+      "Bring to a full rolling boil and cook 1 minute before filling jars",
+      "Cook type only — do not use in no-bake or cold recipes"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Clear-Jel-Powder-1-75/dp/B0BZJLVG7S",
     "bestseller": true,
     "badge": "Bestseller",
@@ -78,6 +108,12 @@
     "tagline": "Prague Powder #1 — Instacure for bacon, ham & jerky",
     "description": "Premium Prague Powder #1 (Instacure #1). 6.25% sodium nitrite formulation for short-term curing of bacon, ham, sausage, and jerky.",
     "features": ["6.25% sodium nitrite", "Resealable jar", "Prague Powder #1", "Food grade"],
+    "usageTips": [
+      "Use exactly 1 teaspoon (6.25g) per 5 lbs of meat — measure precisely",
+      "Mix thoroughly with other cure ingredients before applying to meat",
+      "Bacon cure time: 7 days refrigerated; turn and redistribute daily",
+      "Store labeled and separate from regular table salt"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Pink-Curing-Salt-container/dp/B0DZY4SQ64",
     "bestseller": false,
     "badge": null,
@@ -92,6 +128,12 @@
     "tagline": "XL bag for serious charcuterie & meat preservation",
     "description": "Our largest Pink Curing Salt — ideal for dedicated home curers, hunters, and charcuterie enthusiasts. Prague Powder #1 in a resealable jumbo bag.",
     "features": ["6.25% sodium nitrite", "Jumbo XL bag", "Prague Powder #1", "Food grade"],
+    "usageTips": [
+      "Use exactly 1 teaspoon (6.25g) per 5 lbs of meat — measure precisely",
+      "Mix thoroughly with other cure ingredients before applying to meat",
+      "Bacon cure time: 7 days refrigerated; turn and redistribute daily",
+      "Store labeled and separate from regular table salt"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Pink-Curing-Salt-Premium/dp/B0D1CRB894",
     "bestseller": true,
     "badge": "Most Popular",
@@ -106,6 +148,12 @@
     "tagline": "High-protein vegan chunks — unflavored & versatile",
     "description": "Vegan, gluten-free TVP chunks. High in protein, absorbs any flavor or sauce. Perfect for tacos, chili, bolognese, soups, and more.",
     "features": ["Vegan", "Gluten free", "High protein", "Unflavored"],
+    "usageTips": [
+      "Rehydrate with equal parts boiling water or broth for 10 minutes",
+      "Season aggressively — TVP absorbs flavors well",
+      "Use in tacos, chili, pasta sauce, soups, or as a meat extender",
+      "Rehydrated TVP keeps refrigerated for up to 4 days"
+    ],
     "amazonUrl": "https://www.amazon.com/Crave-Textured-Vegetable-Protein-Unflavored/dp/B0CWSFW5JD",
     "bestseller": false,
     "badge": "Amazon's Choice",
@@ -120,6 +168,12 @@
     "tagline": "Keto-friendly thickener & emulsifier",
     "description": "Food-grade xanthan gum powder. A powerful keto-friendly thickener for sauces, dressings, baked goods, and ice cream. A little goes a long way.",
     "features": ["Keto friendly", "Food grade", "Gluten free substitute", "Emulsifier"],
+    "usageTips": [
+      "Gluten-free baking: use 1/4 to 1 tsp per cup of alternative flour",
+      "Sauces and dressings: 1/8 to 1/4 tsp per cup of liquid",
+      "Always mix with dry ingredients first to prevent clumping",
+      "Start with less than you think you need — too much creates gumminess"
+    ],
     "amazonUrl": "https://www.amazon.com/Pure-Xanthan-Gum-Thickener-Seasonings/dp/B0C6782GWH",
     "bestseller": false,
     "badge": null,
@@ -134,6 +188,7 @@
     "tagline": "Natural prebiotic fiber & food-grade emulsifier",
     "description": "100% pure Gum Arabic (Acacia Gum). A natural prebiotic fiber and food-grade thickener for beverages, confections, and supplements.",
     "features": ["100% pure", "Prebiotic fiber", "Food grade"],
+    "usageTips": [],
     "amazonUrl": "https://www.amazon.com/s?srs=119868661011&rh=p_89:Crave%2BSeasonings",
     "bestseller": false,
     "badge": "Coming Soon",
@@ -148,6 +203,7 @@
     "tagline": "Powerful food-grade thickener & stabilizer",
     "description": "Food-grade guar gum powder. An effective thickener for sauces, soups, baked goods, and dairy-free products.",
     "features": ["Food grade", "Gluten free", "Vegan", "Versatile"],
+    "usageTips": [],
     "amazonUrl": "https://www.amazon.com/s?srs=119868661011&rh=p_89:Crave%2BSeasonings",
     "bestseller": false,
     "badge": "Coming Soon",

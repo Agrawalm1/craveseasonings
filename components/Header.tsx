@@ -36,6 +36,7 @@ export default function Header() {
             {[
               { href: "/products", label: "Products" },
               { href: "/recipes", label: "Recipes" },
+              { href: "/blog", label: "Blog" },
               { href: "/about", label: "About" },
               { href: "/contact", label: "Contact" },
             ].map((link) => (
@@ -91,6 +92,7 @@ export default function Header() {
             {[
               { href: "/products", label: "Products" },
               { href: "/recipes", label: "Recipes" },
+              { href: "/blog", label: "Blog" },
               { href: "/about", label: "About" },
               { href: "/contact", label: "Contact" },
             ].map((link) => (

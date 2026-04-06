@@ -71,6 +71,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5">
               {[
+                { href: "/blog", label: "Blog" },
+                { href: "/faq", label: "FAQ" },
                 { href: "/about", label: "About Us" },
                 { href: "/contact", label: "Contact" },
                 { href: "/privacy", label: "Privacy Policy" },
