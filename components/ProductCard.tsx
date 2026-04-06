@@ -18,7 +18,7 @@ interface ProductCardProps {
 }
 
 const categoryColors: Record<string, { bg: string; text: string; placeholder: string }> = {
-  "salts-cures": { bg: "rgba(239,77,72,0.12)", text: "#EF4D48", placeholder: "rgba(239,77,72,0.08)" },
+  "salts-cures": { bg: "rgba(239,77,72,0.12)", text: "#C03030", placeholder: "rgba(239,77,72,0.08)" },
   thickeners: { bg: "rgba(217,119,6,0.12)", text: "#B45309", placeholder: "rgba(217,119,6,0.08)" },
   "plant-based": { bg: "rgba(5,150,105,0.12)", text: "#059669", placeholder: "rgba(5,150,105,0.08)" },
 };
@@ -97,7 +97,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                   ? "#6B7280"
                   : product.badge === "Amazon's Choice"
                   ? "#B45309"
-                  : "#EF4D48",
+                  : "#C03030",
               backdropFilter: "blur(8px)",
             }}
             className="text-[10px] font-bold px-2.5 py-1 rounded-full tracking-wide uppercase shadow-sm"
@@ -121,7 +121,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* Name */}
         <h3
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-base font-bold leading-snug mb-1"
         >
           {product.name}
@@ -129,7 +129,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* Tagline */}
         <p
-          style={{ color: "#2B161B", opacity: 0.65 }}
+          style={{ color: "#1A1A1A", opacity: 0.65 }}
           className="text-sm mb-3 leading-relaxed flex-1"
         >
           {product.tagline}
@@ -140,7 +140,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           {displayFeatures.map((feature) => (
             <span
               key={feature}
-              style={{ background: "rgba(43,22,27,0.06)", color: "#2B161B" }}
+              style={{ background: "rgba(43,22,27,0.06)", color: "#1A1A1A" }}
               className="text-[11px] font-medium px-2 py-0.5 rounded-full"
             >
               {feature}
@@ -154,9 +154,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            background: isComingSoon ? "transparent" : "#EF4D48",
-            border: isComingSoon ? "1.5px solid #EF4D48" : "none",
-            color: isComingSoon ? "#EF4D48" : "#ffffff",
+            background: isComingSoon ? "transparent" : "#C03030",
+            border: isComingSoon ? "1.5px solid #C03030" : "none",
+            color: isComingSoon ? "#C03030" : "#ffffff",
           }}
           className="inline-flex items-center justify-center gap-1.5 w-full py-2.5 rounded-2xl text-sm font-semibold hover:opacity-85 transition-opacity"
         >

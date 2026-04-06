@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about Crave Seasonings — a Houston-based brand dedicated to bringing professional-grade bulk food ingredients to home cooks and bakers.",
+    "Learn about Crave Seasonings — dedicated to bringing professional-grade bulk food ingredients to home cooks and bakers.",
 };
 
 const VALUES = [
   {
     icon: "✓",
     title: "Quality First",
-    desc: "Every product is food-grade, non-GMO, and packed to professional standards. We don't cut corners on ingredients.",
+    desc: "Every product is food-grade and packed to professional standards. We don't cut corners on ingredients.",
   },
   {
     icon: "📦",
@@ -19,9 +19,9 @@ const VALUES = [
     desc: "No mystery blends. No fillers. What's on the label is exactly what's in the bag — clearly stated, accurately measured.",
   },
   {
-    icon: "🏭",
-    title: "Made in USA",
-    desc: "We're proud to source and pack our products domestically. Houston-based, American-made.",
+    icon: "★",
+    title: "Food Grade Standards",
+    desc: "We pack every product to food-grade standards with honest labeling — no mystery ingredients, no fillers.",
   },
   {
     icon: "⚡",
@@ -36,20 +36,20 @@ export default function AboutPage() {
       {/* Hero */}
       <div className="max-w-3xl mb-16">
         <p
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="text-xs font-bold tracking-widest uppercase mb-2"
         >
           Our Story
         </p>
         <h1
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight mb-6"
         >
           Built for Home Cooks Who
-          <span style={{ color: "#EF4D48" }}> Demand More</span>
+          <span style={{ color: "#C03030" }}> Demand More</span>
         </h1>
         <p
-          style={{ color: "#2B161B", opacity: 0.7 }}
+          style={{ color: "#1A1A1A", opacity: 0.7 }}
           className="text-lg leading-relaxed"
         >
           Crave Seasonings was founded on a straightforward frustration: the
@@ -73,27 +73,25 @@ export default function AboutPage() {
             className="rounded-3xl p-8"
           >
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-xl font-black mb-4"
             >
-              The Houston Roots
+              Our Roots
             </h2>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed mb-4"
             >
-              We operate out of Houston, Texas — a city that takes food
-              seriously. Houston is one of the most culinarily diverse cities in
-              America, and that energy runs through everything we do. We know
-              what it means to care deeply about what you&apos;re cooking.
+              Crave Seasonings grew out of a love for real food made the right
+              way. We know what it means to care deeply about what you&apos;re
+              cooking — and the difference that the right ingredient makes.
             </p>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed"
             >
-              From our warehouse at 2600 S Loop W, we pack and ship every order
-              with the same attention to detail that a good home cook brings to
-              their kitchen.
+              We pack and ship every order with the same attention to detail
+              that a good home cook brings to their kitchen.
             </p>
           </div>
 
@@ -108,22 +106,22 @@ export default function AboutPage() {
             className="rounded-3xl p-8"
           >
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-xl font-black mb-4"
             >
               Our Mission
             </h2>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed mb-4"
             >
               We exist to close the gap between what professional kitchens have
               access to and what home cooks can actually buy. That means
-              stocking the real, food-grade, non-GMO ingredients that make a
-              genuine difference in your results — and pricing them fairly.
+              stocking the real, food-grade ingredients that make a genuine
+              difference in your results — and pricing them fairly.
             </p>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed"
             >
               When you bake with our Coarse Pretzel Salt, the crunch is real.
@@ -145,13 +143,13 @@ export default function AboutPage() {
             className="rounded-3xl p-8"
           >
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-xl font-black mb-4"
             >
               Quality Commitment
             </h2>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed mb-4"
             >
               Every Crave product is food-grade. We won&apos;t sell you industrial or
@@ -161,7 +159,7 @@ export default function AboutPage() {
               canning.
             </p>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed"
             >
               We pack in resealable bags and jars so your ingredients stay fresh
@@ -172,19 +170,19 @@ export default function AboutPage() {
 
           <div
             style={{
-              background: "rgba(239,77,72,0.06)",
-              border: "1px solid rgba(239,77,72,0.2)",
+              background: "rgba(192,48,48,0.06)",
+              border: "1px solid rgba(192,48,48,0.2)",
             }}
             className="rounded-3xl p-8"
           >
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-xl font-black mb-4"
             >
               The Amazon Partnership
             </h2>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-base leading-relaxed mb-4"
             >
               We sell through Amazon because that&apos;s where our customers shop.
@@ -197,7 +195,7 @@ export default function AboutPage() {
               href="https://www.amazon.com/s?srs=119868661011&rh=p_89:Crave%2BSeasonings"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ background: "#EF4D48" }}
+              style={{ background: "#C03030" }}
               className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-2xl text-white text-sm font-semibold hover:opacity-85 transition-opacity"
             >
               Visit Our Amazon Store →
@@ -209,7 +207,7 @@ export default function AboutPage() {
       {/* Values */}
       <section className="mb-16">
         <h2
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-2xl font-black mb-7 text-center"
         >
           What We Stand For
@@ -228,20 +226,20 @@ export default function AboutPage() {
               className="rounded-3xl p-6"
             >
               <div
-                style={{ color: "#EF4D48" }}
+                style={{ color: "#C03030" }}
                 className="text-2xl mb-3 select-none"
                 aria-hidden="true"
               >
                 {v.icon}
               </div>
               <h3
-                style={{ color: "#2B161B" }}
+                style={{ color: "#1A1A1A" }}
                 className="text-base font-black mb-2"
               >
                 {v.title}
               </h3>
               <p
-                style={{ color: "#2B161B", opacity: 0.65 }}
+                style={{ color: "#1A1A1A", opacity: 0.65 }}
                 className="text-sm leading-relaxed"
               >
                 {v.desc}
@@ -253,7 +251,7 @@ export default function AboutPage() {
 
       {/* CTA */}
       <div
-        style={{ background: "#2B161B" }}
+        style={{ background: "#1A1A1A" }}
         className="rounded-3xl p-10 text-center"
       >
         <h2 className="text-2xl font-black text-white mb-3">
@@ -269,7 +267,7 @@ export default function AboutPage() {
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link
             href="/products"
-            style={{ background: "#EF4D48" }}
+            style={{ background: "#C03030" }}
             className="inline-flex items-center justify-center gap-1.5 px-7 py-3.5 rounded-2xl text-white font-semibold hover:opacity-90 transition-opacity"
           >
             Shop All Products →

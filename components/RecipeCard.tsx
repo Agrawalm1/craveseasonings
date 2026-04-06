@@ -21,7 +21,7 @@ interface RecipeCardProps {
 const difficultyColor: Record<string, { bg: string; text: string }> = {
   Easy: { bg: "rgba(5,150,105,0.12)", text: "#059669" },
   Medium: { bg: "rgba(217,119,6,0.12)", text: "#B45309" },
-  Hard: { bg: "rgba(239,77,72,0.12)", text: "#EF4D48" },
+  Hard: { bg: "rgba(192,48,48,0.12)", text: "#C03030" },
 };
 
 export default function RecipeCard({ recipe, featuredProductNames = {} }: RecipeCardProps) {
@@ -77,13 +77,13 @@ export default function RecipeCard({ recipe, featuredProductNames = {} }: Recipe
         {/* Content */}
         <div className="p-5">
           <h3
-            style={{ color: "#2B161B" }}
+            style={{ color: "#1A1A1A" }}
             className="font-bold text-base leading-snug mb-2 group-hover:opacity-75 transition-opacity"
           >
             {recipe.title}
           </h3>
           <p
-            style={{ color: "#2B161B", opacity: 0.6 }}
+            style={{ color: "#1A1A1A", opacity: 0.6 }}
             className="text-sm leading-relaxed mb-4"
           >
             {truncated}
@@ -92,7 +92,7 @@ export default function RecipeCard({ recipe, featuredProductNames = {} }: Recipe
           {/* Meta row */}
           <div className="flex items-center flex-wrap gap-2 mb-3">
             <span
-              style={{ background: "rgba(43,22,27,0.07)", color: "#2B161B" }}
+              style={{ background: "rgba(26,26,26,0.07)", color: "#1A1A1A" }}
               className="text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1"
             >
               <svg className="w-3 h-3 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -115,8 +115,8 @@ export default function RecipeCard({ recipe, featuredProductNames = {} }: Recipe
                 <span
                   key={pid}
                   style={{
-                    background: "rgba(239,77,72,0.1)",
-                    color: "#EF4D48",
+                    background: "rgba(192,48,48,0.1)",
+                    color: "#C03030",
                   }}
                   className="text-[10px] font-semibold px-2 py-0.5 rounded-full"
                 >

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Crave Seasonings",
   },
   description:
-    "Premium bulk food ingredients shipped from Houston, TX. Non-GMO pretzel salt, Clear Jel, pink curing salt, TVP, xanthan gum and more. Treat For Your Tastebuds.",
+    "Premium bulk food ingredients for home bakers, curers, and canners. Pretzel salt, Clear Jel, pink curing salt, TVP, xanthan gum and more. Treat For Your Tastebuds.",
   keywords: [
     "pretzel salt",
     "clear jel powder",
@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     "textured vegetable protein",
     "xanthan gum",
     "bulk food ingredients",
-    "Houston Texas",
   ],
   openGraph: {
     type: "website",
@@ -28,13 +27,13 @@ export const metadata: Metadata = {
     siteName: "Crave Seasonings",
     title: "Crave Seasonings — Premium Bulk Food Ingredients",
     description:
-      "Premium bulk food ingredients shipped from Houston, TX. Non-GMO, food-grade quality. Treat For Your Tastebuds.",
+      "Premium bulk food ingredients for home bakers, curers, and canners. Food-grade quality. Treat For Your Tastebuds.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Crave Seasonings — Premium Bulk Food Ingredients",
     description:
-      "Premium bulk food ingredients shipped from Houston, TX. Non-GMO, food-grade quality.",
+      "Premium bulk food ingredients for home bakers, curers, and canners. Food-grade quality.",
   },
   robots: {
     index: true,

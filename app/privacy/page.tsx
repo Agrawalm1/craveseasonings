@@ -12,18 +12,18 @@ export default function PrivacyPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
       <div className="mb-10">
         <p
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="text-xs font-bold tracking-widest uppercase mb-2"
         >
           Legal
         </p>
         <h1
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-3xl sm:text-4xl font-black mb-2"
         >
           Privacy Policy
         </h1>
-        <p style={{ color: "#2B161B", opacity: 0.5 }} className="text-sm">
+        <p style={{ color: "#1A1A1A", opacity: 0.5 }} className="text-sm">
           Last updated: {lastUpdated}
         </p>
       </div>
@@ -77,18 +77,18 @@ export default function PrivacyPage() {
           },
           {
             title: "10. Contact Us",
-            content: `If you have any questions about this Privacy Policy or how we handle your data, please contact us at hpncap@gmail.com or write to us at 2600 S Loop W, Suite 300, Houston, Texas 77054.`,
+            content: `If you have any questions about this Privacy Policy or how we handle your data, please contact us at hpncap@gmail.com.`,
           },
         ].map((section) => (
           <div key={section.title}>
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-base font-black mb-2"
             >
               {section.title}
             </h2>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-sm leading-relaxed"
             >
               {section.content}

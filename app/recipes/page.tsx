@@ -14,19 +14,19 @@ export default function RecipesPage() {
       {/* Header */}
       <div className="mb-10">
         <p
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="text-xs font-bold tracking-widest uppercase mb-2"
         >
           Inspired Cooking
         </p>
         <h1
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-3xl sm:text-4xl font-black mb-3"
         >
           Recipes
         </h1>
         <p
-          style={{ color: "#2B161B", opacity: 0.65 }}
+          style={{ color: "#1A1A1A", opacity: 0.65 }}
           className="text-base max-w-xl"
         >
           From soft pretzels to home-cured bacon, these recipes show you exactly

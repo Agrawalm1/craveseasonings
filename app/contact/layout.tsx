@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Crave Seasonings. Based in Houston, Texas. We'd love to hear from you.",
+    "Get in touch with Crave Seasonings. We'd love to hear from you.",
 };
 
 export default function ContactLayout({

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --brand-red: #EF4D48;
-  --brand-brown: #2B161B;
+  --brand-red: #C03030;
+  --brand-brown: #1A1A1A;
   --brand-cream: #F7F3F5;
 }
 
@@ -17,7 +17,7 @@ html {
 body {
   background: linear-gradient(160deg, #fdf8f5 0%, #fff9f7 60%, #ffffff 100%);
   background-attachment: fixed;
-  color: #2B161B;
+  color: #1A1A1A;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

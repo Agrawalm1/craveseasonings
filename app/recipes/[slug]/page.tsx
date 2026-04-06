@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 const difficultyColor: Record<string, { bg: string; text: string }> = {
   Easy: { bg: "rgba(5,150,105,0.12)", text: "#059669" },
   Medium: { bg: "rgba(217,119,6,0.12)", text: "#B45309" },
-  Hard: { bg: "rgba(239,77,72,0.12)", text: "#EF4D48" },
+  Hard: { bg: "rgba(192,48,48,0.12)", text: "#C03030" },
 };
 
 export default async function RecipeSlugPage({ params }: PageProps) {
@@ -45,13 +45,13 @@ export default async function RecipeSlugPage({ params }: PageProps) {
       <nav className="mb-8 flex items-center gap-2 text-sm" aria-label="Breadcrumb">
         <Link
           href="/recipes"
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="font-medium hover:opacity-70 transition-opacity"
         >
           Recipes
         </Link>
-        <span style={{ color: "#2B161B", opacity: 0.3 }}>/</span>
-        <span style={{ color: "#2B161B", opacity: 0.6 }}>{recipe.title}</span>
+        <span style={{ color: "#1A1A1A", opacity: 0.3 }}>/</span>
+        <span style={{ color: "#1A1A1A", opacity: 0.6 }}>{recipe.title}</span>
       </nav>
 
       {/* Hero card */}
@@ -71,14 +71,14 @@ export default async function RecipeSlugPage({ params }: PageProps) {
       {/* Title & Meta */}
       <div className="mb-8">
         <h1
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-3xl sm:text-4xl font-black leading-tight mb-4"
         >
           {recipe.title}
         </h1>
         <div className="flex flex-wrap items-center gap-3 mb-4">
           <span
-            style={{ background: "rgba(43,22,27,0.07)", color: "#2B161B" }}
+            style={{ background: "rgba(26,26,26,0.07)", color: "#1A1A1A" }}
             className="text-sm font-medium px-3 py-1.5 rounded-full"
           >
             ⏱ {recipe.prepTime}
@@ -90,14 +90,14 @@ export default async function RecipeSlugPage({ params }: PageProps) {
             {recipe.difficulty}
           </span>
           <span
-            style={{ background: "rgba(43,22,27,0.07)", color: "#2B161B" }}
+            style={{ background: "rgba(26,26,26,0.07)", color: "#1A1A1A" }}
             className="text-sm font-medium px-3 py-1.5 rounded-full"
           >
             Serves {recipe.servings}
           </span>
         </div>
         <p
-          style={{ color: "#2B161B", opacity: 0.7 }}
+          style={{ color: "#1A1A1A", opacity: 0.7 }}
           className="text-base sm:text-lg leading-relaxed"
         >
           {recipe.description}
@@ -118,7 +118,7 @@ export default async function RecipeSlugPage({ params }: PageProps) {
             className="rounded-3xl p-6 sticky top-24"
           >
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-lg font-black mb-4"
             >
               Ingredients
@@ -127,13 +127,13 @@ export default async function RecipeSlugPage({ params }: PageProps) {
               {recipe.ingredients.map((ing, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <span
-                    style={{ color: "#EF4D48", flexShrink: 0 }}
+                    style={{ color: "#C03030", flexShrink: 0 }}
                     className="text-xs font-bold mt-1"
                   >
                     •
                   </span>
                   <span
-                    style={{ color: "#2B161B", opacity: 0.8 }}
+                    style={{ color: "#1A1A1A", opacity: 0.8 }}
                     className="text-sm leading-relaxed"
                   >
                     {ing}
@@ -157,7 +157,7 @@ export default async function RecipeSlugPage({ params }: PageProps) {
             className="rounded-3xl p-6"
           >
             <h2
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-lg font-black mb-5"
             >
               Instructions
@@ -167,7 +167,7 @@ export default async function RecipeSlugPage({ params }: PageProps) {
                 <li key={i} className="flex items-start gap-4">
                   <span
                     style={{
-                      background: "#EF4D48",
+                      background: "#C03030",
                       color: "#ffffff",
                       flexShrink: 0,
                       width: "28px",
@@ -183,7 +183,7 @@ export default async function RecipeSlugPage({ params }: PageProps) {
                     {i + 1}
                   </span>
                   <span
-                    style={{ color: "#2B161B", opacity: 0.8 }}
+                    style={{ color: "#1A1A1A", opacity: 0.8 }}
                     className="text-sm leading-relaxed pt-1"
                   >
                     {step}
@@ -196,24 +196,24 @@ export default async function RecipeSlugPage({ params }: PageProps) {
           {/* Pro tip */}
           <div
             style={{
-              background: "rgba(239,77,72,0.06)",
-              border: "1px solid rgba(239,77,72,0.2)",
+              background: "rgba(192,48,48,0.06)",
+              border: "1px solid rgba(192,48,48,0.2)",
             }}
             className="rounded-3xl p-6"
           >
             <div className="flex items-center gap-2 mb-2">
-              <span style={{ color: "#EF4D48" }} className="text-lg">
+              <span style={{ color: "#C03030" }} className="text-lg">
                 💡
               </span>
               <h3
-                style={{ color: "#EF4D48" }}
+                style={{ color: "#C03030" }}
                 className="text-sm font-black tracking-wide uppercase"
               >
                 Pro Tip
               </h3>
             </div>
             <p
-              style={{ color: "#2B161B", opacity: 0.75 }}
+              style={{ color: "#1A1A1A", opacity: 0.75 }}
               className="text-sm leading-relaxed"
             >
               {recipe.tip}
@@ -226,7 +226,7 @@ export default async function RecipeSlugPage({ params }: PageProps) {
       {usedProducts.length > 0 && (
         <section className="mt-12">
           <h2
-            style={{ color: "#2B161B" }}
+            style={{ color: "#1A1A1A" }}
             className="text-xl font-black mb-5"
           >
             Products Used in This Recipe
@@ -246,13 +246,13 @@ export default async function RecipeSlugPage({ params }: PageProps) {
               >
                 <div>
                   <p
-                    style={{ color: "#2B161B" }}
+                    style={{ color: "#1A1A1A" }}
                     className="text-sm font-bold mb-0.5"
                   >
                     {product.name}
                   </p>
                   <p
-                    style={{ color: "#2B161B", opacity: 0.55 }}
+                    style={{ color: "#1A1A1A", opacity: 0.55 }}
                     className="text-xs"
                   >
                     {product.size} — {product.categoryLabel}
@@ -262,7 +262,7 @@ export default async function RecipeSlugPage({ params }: PageProps) {
                   href={product.amazonUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ background: "#EF4D48", flexShrink: 0 }}
+                  style={{ background: "#C03030", flexShrink: 0 }}
                   className="inline-flex items-center gap-1 px-4 py-2 rounded-2xl text-white text-xs font-semibold hover:opacity-85 transition-opacity"
                 >
                   Buy →
@@ -274,10 +274,10 @@ export default async function RecipeSlugPage({ params }: PageProps) {
       )}
 
       {/* Back link */}
-      <div className="mt-12 pt-8" style={{ borderTop: "1px solid rgba(43,22,27,0.08)" }}>
+      <div className="mt-12 pt-8" style={{ borderTop: "1px solid rgba(26,26,26,0.08)" }}>
         <Link
           href="/recipes"
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="text-sm font-semibold hover:opacity-70 transition-opacity"
         >
           ← Back to All Recipes

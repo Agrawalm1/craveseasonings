@@ -32,23 +32,23 @@ export default function ProductsClient() {
       {/* Header */}
       <div className="mb-10">
         <p
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="text-xs font-bold tracking-widest uppercase mb-2"
         >
           Crave Seasonings
         </p>
         <h1
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-3xl sm:text-4xl font-black mb-3"
         >
           All Products
         </h1>
         <p
-          style={{ color: "#2B161B", opacity: 0.65 }}
+          style={{ color: "#1A1A1A", opacity: 0.65 }}
           className="text-base max-w-xl"
         >
-          Professional-grade, non-GMO bulk food ingredients for home bakers,
-          curers, and canners. Every product ships from Houston, Texas.
+          Professional-grade bulk food ingredients for home bakers, curers,
+          and canners. Food-grade quality, shipped to your door.
         </p>
       </div>
 
@@ -60,11 +60,11 @@ export default function ProductsClient() {
             onClick={() => setActiveCategory(cat.id)}
             style={
               activeCategory === cat.id
-                ? { background: "#EF4D48", color: "#ffffff" }
+                ? { background: "#C03030", color: "#ffffff" }
                 : {
                     background: "rgba(255,255,255,0.75)",
-                    color: "#2B161B",
-                    border: "1px solid rgba(43,22,27,0.12)",
+                    color: "#1A1A1A",
+                    border: "1px solid rgba(26,26,26,0.12)",
                   }
             }
             className="px-4 py-2 rounded-2xl text-sm font-semibold transition-all hover:opacity-85"
@@ -76,7 +76,7 @@ export default function ProductsClient() {
 
       {/* Product count */}
       <p
-        style={{ color: "#2B161B", opacity: 0.5 }}
+        style={{ color: "#1A1A1A", opacity: 0.5 }}
         className="text-sm mb-6"
       >
         {filtered.length} product{filtered.length !== 1 ? "s" : ""}
@@ -97,7 +97,7 @@ export default function ProductsClient() {
 
       {filtered.length === 0 && (
         <div className="text-center py-20">
-          <p style={{ color: "#2B161B", opacity: 0.5 }} className="text-base">
+          <p style={{ color: "#1A1A1A", opacity: 0.5 }} className="text-base">
             No products found in this category.
           </p>
         </div>

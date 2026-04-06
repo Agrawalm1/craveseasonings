@@ -34,19 +34,19 @@ export default function ContactPage() {
       {/* Header */}
       <div className="max-w-2xl mb-12">
         <p
-          style={{ color: "#EF4D48" }}
+          style={{ color: "#C03030" }}
           className="text-xs font-bold tracking-widest uppercase mb-2"
         >
           Get In Touch
         </p>
         <h1
-          style={{ color: "#2B161B" }}
+          style={{ color: "#1A1A1A" }}
           className="text-3xl sm:text-4xl font-black mb-3"
         >
           Contact Us
         </h1>
         <p
-          style={{ color: "#2B161B", opacity: 0.65 }}
+          style={{ color: "#1A1A1A", opacity: 0.65 }}
           className="text-base"
         >
           Have a question about one of our products, need help with a recipe, or
@@ -70,20 +70,20 @@ export default function ContactPage() {
             {status === "sent" ? (
               <div className="text-center py-8">
                 <div
-                  style={{ color: "#EF4D48" }}
+                  style={{ color: "#C03030" }}
                   className="text-5xl mb-4 select-none"
                   aria-hidden="true"
                 >
                   ✓
                 </div>
                 <h2
-                  style={{ color: "#2B161B" }}
+                  style={{ color: "#1A1A1A" }}
                   className="text-xl font-black mb-2"
                 >
                   Message Sent!
                 </h2>
                 <p
-                  style={{ color: "#2B161B", opacity: 0.65 }}
+                  style={{ color: "#1A1A1A", opacity: 0.65 }}
                   className="text-base"
                 >
                   Thanks for reaching out. We&apos;ll get back to you within 1–2
@@ -96,7 +96,7 @@ export default function ContactPage() {
                   <div>
                     <label
                       htmlFor="name"
-                      style={{ color: "#2B161B" }}
+                      style={{ color: "#1A1A1A" }}
                       className="block text-sm font-semibold mb-1.5"
                     >
                       Name
@@ -108,8 +108,8 @@ export default function ContactPage() {
                       required
                       placeholder="Your name"
                       style={{
-                        border: "1.5px solid rgba(43,22,27,0.15)",
-                        color: "#2B161B",
+                        border: "1.5px solid rgba(26,26,26,0.15)",
+                        color: "#1A1A1A",
                         background: "rgba(255,255,255,0.8)",
                       }}
                       className="w-full px-4 py-3 rounded-2xl text-sm outline-none focus:border-red-400 transition-colors"
@@ -118,7 +118,7 @@ export default function ContactPage() {
                   <div>
                     <label
                       htmlFor="email"
-                      style={{ color: "#2B161B" }}
+                      style={{ color: "#1A1A1A" }}
                       className="block text-sm font-semibold mb-1.5"
                     >
                       Email
@@ -130,8 +130,8 @@ export default function ContactPage() {
                       required
                       placeholder="your@email.com"
                       style={{
-                        border: "1.5px solid rgba(43,22,27,0.15)",
-                        color: "#2B161B",
+                        border: "1.5px solid rgba(26,26,26,0.15)",
+                        color: "#1A1A1A",
                         background: "rgba(255,255,255,0.8)",
                       }}
                       className="w-full px-4 py-3 rounded-2xl text-sm outline-none focus:border-red-400 transition-colors"
@@ -142,7 +142,7 @@ export default function ContactPage() {
                 <div>
                   <label
                     htmlFor="subject"
-                    style={{ color: "#2B161B" }}
+                    style={{ color: "#1A1A1A" }}
                     className="block text-sm font-semibold mb-1.5"
                   >
                     Subject
@@ -152,8 +152,8 @@ export default function ContactPage() {
                     name="subject"
                     required
                     style={{
-                      border: "1.5px solid rgba(43,22,27,0.15)",
-                      color: "#2B161B",
+                      border: "1.5px solid rgba(26,26,26,0.15)",
+                      color: "#1A1A1A",
                       background: "rgba(255,255,255,0.8)",
                     }}
                     className="w-full px-4 py-3 rounded-2xl text-sm outline-none focus:border-red-400 transition-colors"
@@ -170,7 +170,7 @@ export default function ContactPage() {
                 <div>
                   <label
                     htmlFor="message"
-                    style={{ color: "#2B161B" }}
+                    style={{ color: "#1A1A1A" }}
                     className="block text-sm font-semibold mb-1.5"
                   >
                     Message
@@ -182,8 +182,8 @@ export default function ContactPage() {
                     rows={5}
                     placeholder="Tell us how we can help…"
                     style={{
-                      border: "1.5px solid rgba(43,22,27,0.15)",
-                      color: "#2B161B",
+                      border: "1.5px solid rgba(26,26,26,0.15)",
+                      color: "#1A1A1A",
                       background: "rgba(255,255,255,0.8)",
                       resize: "vertical",
                     }}
@@ -193,7 +193,7 @@ export default function ContactPage() {
 
                 {status === "error" && (
                   <p
-                    style={{ color: "#EF4D48" }}
+                    style={{ color: "#C03030" }}
                     className="text-sm font-medium"
                   >
                     Something went wrong. Please try again or email us directly.
@@ -203,7 +203,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   disabled={status === "sending"}
-                  style={{ background: "#EF4D48" }}
+                  style={{ background: "#C03030" }}
                   className="w-full py-3.5 rounded-2xl text-white font-semibold text-sm hover:opacity-90 transition-opacity disabled:opacity-60"
                 >
                   {status === "sending" ? "Sending…" : "Send Message"}
@@ -226,60 +226,27 @@ export default function ContactPage() {
             className="rounded-3xl p-7"
           >
             <div
-              style={{ color: "#EF4D48" }}
-              className="text-2xl mb-3 select-none"
-              aria-hidden="true"
-            >
-              📍
-            </div>
-            <h3
-              style={{ color: "#2B161B" }}
-              className="text-base font-black mb-1"
-            >
-              Address
-            </h3>
-            <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
-              className="text-sm leading-relaxed"
-            >
-              2600 S Loop W, Suite 300
-              <br />
-              Houston, Texas 77054
-            </p>
-          </div>
-
-          <div
-            style={{
-              background: "rgba(255,255,255,0.75)",
-              backdropFilter: "blur(20px)",
-              WebkitBackdropFilter: "blur(20px)",
-              border: "1px solid rgba(255,255,255,0.8)",
-              boxShadow: "0 4px 30px rgba(0,0,0,0.06)",
-            }}
-            className="rounded-3xl p-7"
-          >
-            <div
-              style={{ color: "#EF4D48" }}
+              style={{ color: "#C03030" }}
               className="text-2xl mb-3 select-none"
               aria-hidden="true"
             >
               ✉️
             </div>
             <h3
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-base font-black mb-1"
             >
               Email
             </h3>
             <a
               href="mailto:hpncap@gmail.com"
-              style={{ color: "#EF4D48" }}
+              style={{ color: "#C03030" }}
               className="text-sm font-medium hover:opacity-70 transition-opacity"
             >
               hpncap@gmail.com
             </a>
             <p
-              style={{ color: "#2B161B", opacity: 0.5 }}
+              style={{ color: "#1A1A1A", opacity: 0.5 }}
               className="text-xs mt-1"
             >
               We respond within 1–2 business days
@@ -297,20 +264,20 @@ export default function ContactPage() {
             className="rounded-3xl p-7"
           >
             <div
-              style={{ color: "#EF4D48" }}
+              style={{ color: "#C03030" }}
               className="text-2xl mb-3 select-none"
               aria-hidden="true"
             >
               🛒
             </div>
             <h3
-              style={{ color: "#2B161B" }}
+              style={{ color: "#1A1A1A" }}
               className="text-base font-black mb-1"
             >
               Order Questions?
             </h3>
             <p
-              style={{ color: "#2B161B", opacity: 0.7 }}
+              style={{ color: "#1A1A1A", opacity: 0.7 }}
               className="text-sm leading-relaxed mb-3"
             >
               For order issues, shipping questions, or returns, please use
@@ -321,8 +288,8 @@ export default function ContactPage() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                border: "1.5px solid #EF4D48",
-                color: "#EF4D48",
+                border: "1.5px solid #C03030",
+                color: "#C03030",
               }}
               className="inline-flex items-center gap-1 px-4 py-2 rounded-2xl text-sm font-semibold hover:bg-red-50 transition-colors"
             >
