@@ -131,7 +131,7 @@ export default async function ProductDetailPage({ params }: Props) {
                 Enter your email and we&apos;ll notify you when {product.name} is available.
               </p>
               <form
-                action="https://formspree.io/f/mreoazqz"
+                action="https://formspree.io/f/xjgpjlyz"
                 method="POST"
                 className="flex gap-2"
               >
