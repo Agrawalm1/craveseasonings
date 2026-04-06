@@ -36,72 +36,68 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden">
+        {/* Background image */}
         <div
           style={{
-            background:
-              "radial-gradient(ellipse at 60% 0%, rgba(239,77,72,0.08) 0%, transparent 70%)",
             position: "absolute",
             inset: 0,
-            pointerEvents: "none",
+            backgroundImage: "url('/hero.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 relative">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            {/* Text */}
-            <div>
-              <div
-                style={{
-                  background: "rgba(192,48,48,0.1)",
-                  color: "#C03030",
-                  display: "inline-flex",
-                }}
-                className="text-xs font-bold tracking-widest uppercase px-3 py-1.5 rounded-full mb-5"
-              >
-                Premium Bulk Food Ingredients
-              </div>
-              <h1
-                style={{ color: "#1A1A1A" }}
-                className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-5"
-              >
-                Treat For Your
-                <span style={{ color: "#C03030" }}> Tastebuds</span>
-              </h1>
-              <p
-                style={{ color: "#1A1A1A", opacity: 0.65 }}
-                className="text-lg sm:text-xl leading-relaxed mb-8 max-w-xl"
-              >
-                Professional-grade bulk food ingredients for home bakers, curers,
-                and canners. Food-grade quality, shipped right to your door.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link
-                  href="/products"
-                  style={{ background: "#C03030" }}
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl text-white font-semibold hover:opacity-90 transition-opacity text-base"
-                >
-                  Shop Products
-                </Link>
-                <Link
-                  href="/recipes"
-                  style={{
-                    border: "1.5px solid #C03030",
-                    color: "#C03030",
-                  }}
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl font-semibold hover:bg-red-50 transition-colors text-base"
-                >
-                  Browse Recipes
-                </Link>
-              </div>
+        {/* Dark overlay so text is readable */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(to right, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.2) 100%)",
+          }}
+        />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40 relative">
+          <div className="max-w-2xl">
+            <div
+              style={{
+                background: "rgba(192,48,48,0.85)",
+                color: "#fff",
+                display: "inline-flex",
+              }}
+              className="text-xs font-bold tracking-widest uppercase px-3 py-1.5 rounded-full mb-5"
+            >
+              Premium Bulk Food Ingredients
             </div>
-
-            {/* Hero image */}
-            <div className="flex items-center justify-center lg:justify-end">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/hero.jpg"
-                alt="Crave Seasonings pretzel salt"
-                style={{ maxWidth: "480px", width: "100%", borderRadius: "24px", boxShadow: "0 20px 60px rgba(0,0,0,0.12)" }}
-              />
+            <h1
+              style={{ color: "#ffffff" }}
+              className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-5"
+            >
+              Treat For Your
+              <span style={{ color: "#f87171" }}> Tastebuds</span>
+            </h1>
+            <p
+              style={{ color: "rgba(255,255,255,0.8)" }}
+              className="text-lg sm:text-xl leading-relaxed mb-8 max-w-xl"
+            >
+              Professional-grade bulk food ingredients for home bakers, curers,
+              and canners. Food-grade quality, shipped right to your door.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link
+                href="/products"
+                style={{ background: "#C03030" }}
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl text-white font-semibold hover:opacity-90 transition-opacity text-base"
+              >
+                Shop Products
+              </Link>
+              <Link
+                href="/recipes"
+                style={{
+                  border: "1.5px solid rgba(255,255,255,0.7)",
+                  color: "#ffffff",
+                }}
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl font-semibold hover:bg-white/10 transition-colors text-base"
+              >
+                Browse Recipes
+              </Link>
             </div>
           </div>
         </div>
