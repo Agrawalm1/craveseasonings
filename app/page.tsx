@@ -498,7 +498,7 @@ export default function HomePage() {
             exclusive discounts for home cooks and food enthusiasts.
           </p>
           <form
-            action="https://formspree.io/f/mreoazqz"
+            action="https://formspree.io/f/mnjolwpw"
             method="POST"
             className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
           >
