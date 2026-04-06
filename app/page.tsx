@@ -174,8 +174,20 @@ export default function HomePage() {
                   display: "flex",
                   flexDirection: "column",
                 }}
-                className="rounded-3xl p-5 hover:shadow-lg transition-shadow duration-300"
+                className="rounded-3xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
+                {/* Product image */}
+                {product.image && (
+                  <div style={{ height: "130px", background: "#fff", overflow: "hidden" }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      style={{ width: "100%", height: "100%", objectFit: "contain", padding: "12px" }}
+                    />
+                  </div>
+                )}
+                <div className="p-5 flex flex-col flex-1">
                 {product.badge && (
                   <div
                     style={{
@@ -233,6 +245,7 @@ export default function HomePage() {
                 >
                   Buy on Amazon →
                 </a>
+                </div>
               </div>
             );
           })}
