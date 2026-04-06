@@ -63,7 +63,7 @@ export default async function BlogPostPage({ params }: Props) {
             {post.title}
           </h1>
 
-          <p style={{ color: "#1A1A1A", opacity: 0.65 }} className="text-lg leading-relaxed mb-10 pb-10" style={{ borderBottom: "1px solid rgba(26,26,26,0.08)", color: "#1A1A1A", opacity: 0.65 }}>
+          <p style={{ color: "#1A1A1A", opacity: 0.65, borderBottom: "1px solid rgba(26,26,26,0.08)" }} className="text-lg leading-relaxed mb-10 pb-10">
             {post.excerpt}
           </p>
 
