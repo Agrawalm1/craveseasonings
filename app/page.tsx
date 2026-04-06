@@ -7,26 +7,14 @@ import recipes from "@/data/recipes.json";
 export const metadata: Metadata = {
   title: "Crave Seasonings — Premium Bulk Food Ingredients",
   description:
-    "Premium bulk food ingredients shipped from Houston, TX. Non-GMO pretzel salt, Clear Jel, pink curing salt, TVP, and more. Treat For Your Tastebuds.",
+    "Premium bulk food ingredients shipped from Houston, TX. Pretzel salt, Clear Jel, pink curing salt, TVP, xanthan gum, and more. Treat For Your Tastebuds.",
 };
 
 const TRUST_ITEMS = [
-  {
-    label: "Non-GMO",
-    icon: "✓",
-  },
-  {
-    label: "Made in USA",
-    icon: "🇺🇸",
-  },
-  {
-    label: "Food Grade Quality",
-    icon: "★",
-  },
-  {
-    label: "Ships from Houston TX",
-    icon: "📦",
-  },
+  { label: "All Natural", icon: "✓" },
+  { label: "Made in USA", icon: "🇺🇸" },
+  { label: "Food Grade Quality", icon: "★" },
+  { label: "Ships from Houston TX", icon: "📦" },
 ];
 
 const FEATURED_IDS = ["pretzel-salt-1-5lb", "clear-jel-1-75lb", "pink-curing-salt-2-5lb"];
@@ -81,8 +69,7 @@ export default function HomePage() {
               className="text-lg sm:text-xl leading-relaxed mb-8 max-w-xl"
             >
               Professional-grade bulk food ingredients for home bakers, curers,
-              and canners. Non-GMO, food-grade, and shipped fresh from Houston,
-              Texas.
+              and canners. Food-grade quality, shipped fresh from Houston, Texas.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
@@ -216,9 +203,6 @@ export default function HomePage() {
                   className="text-base font-bold leading-snug mb-1"
                 >
                   {product.name}
-                  <span className="font-normal opacity-60 ml-1.5 text-sm">
-                    — {product.size}
-                  </span>
                 </h3>
                 <p
                   style={{ color: "#2B161B", opacity: 0.65 }}
@@ -368,8 +352,8 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 gap-4">
             {[
-              { stat: "11+", label: "Products Available" },
-              { stat: "Non-GMO", label: "Ingredients" },
+              { stat: "Food Grade", label: "Quality Standard" },
+              { stat: "All Natural", label: "Ingredients" },
               { stat: "Houston", label: "Based & Shipped" },
               { stat: "4.5★", label: "Amazon Rating" },
             ].map((item) => (

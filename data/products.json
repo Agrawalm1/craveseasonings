@@ -10,7 +10,8 @@
     "features": ["Heat resistant", "No additives", "Made in USA", "Food grade"],
     "amazonUrl": "https://www.amazon.com/Crave-Coarse-Pretzel-Salt-Ounce/dp/B097F811RC",
     "bestseller": false,
-    "badge": null
+    "badge": null,
+    "image": "/products/pretzel-salt-12oz.jpg"
   },
   {
     "id": "pretzel-salt-1-5lb",
@@ -19,11 +20,12 @@
     "category": "salts-cures",
     "categoryLabel": "Salts & Cures",
     "tagline": "Large bag — best value for home bakers",
-    "description": "The same premium coarse pretzel salt, now in a large resealable bag. Perfect for high-volume baking or stocking your pantry.",
+    "description": "The same premium coarse pretzel salt in a large resealable bag. Perfect for high-volume baking or stocking your pantry.",
     "features": ["Heat resistant", "Resealable bag", "Made in USA", "Food grade"],
     "amazonUrl": "https://www.amazon.com/Crave-Coarse-Pretzel-Pound-Large/dp/B097F442Q2",
     "bestseller": true,
-    "badge": "Bestseller"
+    "badge": "Bestseller",
+    "image": "/products/pretzel-salt-1-5lb.jpg"
   },
   {
     "id": "pretzel-salt-5-5lb",
@@ -36,7 +38,8 @@
     "features": ["Commercial quantity", "Heat resistant", "Made in USA", "Best value/oz"],
     "amazonUrl": "https://www.amazon.com/Crave-Coarse-Pretzel-Pound-Jumbo/dp/B097F5NZ4B",
     "bestseller": false,
-    "badge": "Best Value"
+    "badge": "Best Value",
+    "image": "/products/pretzel-salt-5-5lb.jpg"
   },
   {
     "id": "clear-jel-6oz",
@@ -49,7 +52,8 @@
     "features": ["Non-GMO", "Cook type", "Canning safe", "Unflavored"],
     "amazonUrl": "https://www.amazon.com/Crave-Clear-Jel-Powder-Ounce/dp/B0C17R4JY4",
     "bestseller": false,
-    "badge": null
+    "badge": null,
+    "image": "/products/clear-jel-6oz.jpg"
   },
   {
     "id": "clear-jel-1-75lb",
@@ -58,11 +62,12 @@
     "category": "thickeners",
     "categoryLabel": "Thickeners & Binders",
     "tagline": "Bulk bag — serious canners & bakers",
-    "description": "Our large-format Clear Jel bag. Same non-GMO, cook-type powder at the best price per ounce for frequent canners and bakers.",
+    "description": "Our large-format Clear Jel bag. Non-GMO, cook-type powder at the best price per ounce for frequent canners and bakers.",
     "features": ["Non-GMO", "Cook type", "Canning safe", "Bulk size"],
     "amazonUrl": "https://www.amazon.com/Crave-Clear-Jel-Powder-1-75/dp/B0BZJLVG7S",
     "bestseller": true,
-    "badge": "Bestseller"
+    "badge": "Bestseller",
+    "image": "/products/clear-jel-1-75lb.jpg"
   },
   {
     "id": "pink-curing-salt-2lb",
@@ -75,7 +80,8 @@
     "features": ["Made in USA", "6.25% sodium nitrite", "Resealable jar", "Prague Powder #1"],
     "amazonUrl": "https://www.amazon.com/Crave-Pink-Curing-Salt-container/dp/B0DZY4SQ64",
     "bestseller": false,
-    "badge": null
+    "badge": null,
+    "image": "/products/pink-curing-salt-2lb.jpg"
   },
   {
     "id": "pink-curing-salt-2-5lb",
@@ -88,7 +94,8 @@
     "features": ["Made in USA", "6.25% sodium nitrite", "Jumbo XL bag", "Prague Powder #1"],
     "amazonUrl": "https://www.amazon.com/Crave-Pink-Curing-Salt-Premium/dp/B0D1CRB894",
     "bestseller": true,
-    "badge": "Most Popular"
+    "badge": "Most Popular",
+    "image": "/products/pink-curing-salt-2-5lb.jpg"
   },
   {
     "id": "tvp-2-2lb",
@@ -101,7 +108,8 @@
     "features": ["Vegan", "Gluten free", "High protein", "Unflavored"],
     "amazonUrl": "https://www.amazon.com/Crave-Textured-Vegetable-Protein-Unflavored/dp/B0CWSFW5JD",
     "bestseller": false,
-    "badge": "Amazon's Choice"
+    "badge": "Amazon's Choice",
+    "image": "/products/tvp-2-2lb.jpg"
   },
   {
     "id": "xanthan-gum-4oz",
@@ -114,7 +122,8 @@
     "features": ["Keto friendly", "Food grade", "Gluten free substitute", "Emulsifier"],
     "amazonUrl": "https://www.amazon.com/Pure-Xanthan-Gum-Thickener-Seasonings/dp/B0C6782GWH",
     "bestseller": false,
-    "badge": null
+    "badge": null,
+    "image": "/products/xanthan-gum-4oz.jpg"
   },
   {
     "id": "acacia-gum",
@@ -124,10 +133,11 @@
     "categoryLabel": "Thickeners & Binders",
     "tagline": "Natural prebiotic fiber & food-grade emulsifier",
     "description": "100% pure Gum Arabic (Acacia Gum). A natural prebiotic fiber and food-grade thickener for beverages, confections, and supplements.",
-    "features": ["100% pure", "Prebiotic fiber", "Food grade", "Non-GMO"],
+    "features": ["100% pure", "Prebiotic fiber", "Food grade"],
     "amazonUrl": "https://www.amazon.com/s?srs=119868661011&rh=p_89:Crave%2BSeasonings",
     "bestseller": false,
-    "badge": "Coming Soon"
+    "badge": "Coming Soon",
+    "image": null
   },
   {
     "id": "guar-gum",
@@ -136,10 +146,11 @@
     "category": "thickeners",
     "categoryLabel": "Thickeners & Binders",
     "tagline": "Powerful food-grade thickener & stabilizer",
-    "description": "Food-grade guar gum powder. An effective thickener for sauces, soups, baked goods, and dairy-free products at a fraction of the cost of xanthan gum.",
+    "description": "Food-grade guar gum powder. An effective thickener for sauces, soups, baked goods, and dairy-free products.",
     "features": ["Food grade", "Gluten free", "Vegan", "Versatile"],
     "amazonUrl": "https://www.amazon.com/s?srs=119868661011&rh=p_89:Crave%2BSeasonings",
     "bestseller": false,
-    "badge": "Coming Soon"
+    "badge": "Coming Soon",
+    "image": null
   }
 ]
